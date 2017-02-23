@@ -41,3 +41,4 @@ gem 'spring',        group: :development
 # Rails 12 factor
 gem 'rails_12factor', group: :production
 
+gem 'simple_form'

@@ -1,0 +1,12 @@
+<h1>Add a Dog!</h1>
+
+<%= simple_form_for @dog do |f| %>
+  <%= f.input :breed %>
+  <br/>
+  <%= f.input :description %>
+  <br/>
+  <%= f.submit 'Add a Dog' %>
+<% end %>
+
+<br/>
+<%= button_to 'See All Dogs', root_path, method: :get %>
